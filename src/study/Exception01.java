@@ -1,3 +1,5 @@
+package study;
+
 import java.util.Scanner;
 
 public class Exception01 {
@@ -11,5 +13,7 @@ public class Exception01 {
 
 
         System.out.println(" a / b = " + (a / b));
+        //입력받는 것을 종료한다.
+        sc.close();
     }
 }
